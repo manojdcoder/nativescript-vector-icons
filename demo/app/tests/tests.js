@@ -1,12 +1,7 @@
-var VectorIcons = require("nativescript-vector-icons").VectorIcons;
-var vectorIcons = new VectorIcons();
+var vectorIcons = require("nativescript-vector-icons");
 
-describe("greet function", function() {
-    it("exists", function() {
-        expect(vectorIcons.greet).toBeDefined();
-    });
-
-    it("returns a string", function() {
-        expect(vectorIcons.greet()).toEqual("Hello, NS");
+describe("getImage function", function () {
+    it("exists", function () {
+        expect(vectorIcons.getImage).toBeDefined();
     });
 });

@@ -1,6 +1,26 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page"
-  xmlns:ui="nativescript-vector-icons">
-  <StackLayout class="p-20">
-    <Label text="{{ message }}" class="t-20 text-center c-black" textWrap="true"/>
-  </StackLayout>
+<Page loaded="onPageLoaded" class="page" 
+  xmlns="http://www.nativescript.org/tns.xsd">
+  <ActionBar title="Home" class="action-bar">
+    <ActionItem ios.position="right" icon="{{ rocket }}"></ActionItem>
+  </ActionBar>
+  <TabView ios:loaded="onTabViewLoaded">
+    <TabViewItem title="Core" iconSource="{{ core }}" tintColor="blue">
+      <StackLayout>
+        <Label text="Code with JavaScript / TypeScript" class="m-15 h3 text-center" />
+        <Image src="{{ core }}"></Image>
+      </StackLayout>
+    </TabViewItem>
+    <TabViewItem title="Angular" iconSource="{{ angular }}" tintColor="red">
+      <StackLayout>
+        <Label text="Code with Angular" class="m-15 h3 text-center" />
+        <Image src="{{ angular }}"></Image>
+      </StackLayout>
+    </TabViewItem>
+    <TabViewItem title="Vue.js" iconSource="{{ vue }}" tintColor="#6bb78b">
+      <StackLayout>
+        <Label text="Code with Vue.js" class="m-15 h3 text-center" />
+        <Image src="{{ vue }}"></Image>
+      </StackLayout>
+    </TabViewItem>
+  </TabView>
 </Page>

@@ -14,13 +14,14 @@
         "no-internal-module": true,
         "no-trailing-whitespace": true,
         "no-var-keyword": true,
+        "eofline": true,
         "one-line": [
             true,
             "check-open-brace",
             "check-whitespace"
         ],
         "quotemark": [
-            false,
+            true,
             "double"
         ],
         "semicolon": [
