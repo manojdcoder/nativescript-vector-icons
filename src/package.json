@@ -50,9 +50,10 @@
     "homepage": "https://github.com/manojdcoder/nativescript-vector-icons",
     "readmeFilename": "README.md",
     "devDependencies": {
-        "tns-core-modules": "^4.0.0",
-        "tns-platform-declarations": "^4.0.0",
-        "typescript": "~2.7.2",
+        "@nativescript/core": "~7.0.0",
+        "@nativescript/types": "~7.0.0",
+        "@nativescript/webpack": "~3.0.0",
+        "typescript": "~3.9.0",
         "prompt": "^1.0.0",
         "rimraf": "^2.5.0",
         "tslint": "^5.0.0",

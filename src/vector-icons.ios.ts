@@ -1,6 +1,6 @@
-import { Color } from "tns-core-modules/color";
-import { Font } from "tns-core-modules/ui/styling/font";
-import { File } from "tns-core-modules/file-system";
+import { Color } from "@nativescript/core/color";
+import { Font } from "@nativescript/core/ui/styling/font";
+import { File } from "@nativescript/core/file-system";
 
 import { getImageUrl } from "./vector-icons.common";
 
