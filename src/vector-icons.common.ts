@@ -1,7 +1,7 @@
-import { layout } from "tns-core-modules/utils/utils";
-import { Color } from "tns-core-modules/color";
-import { Font } from "tns-core-modules/ui/styling/font";
-import { path, knownFolders } from "tns-core-modules/file-system";
+import { layout } from "@nativescript/core/utils";
+import { Color } from "@nativescript/core/color";
+import { Font } from "@nativescript/core/ui/styling/font";
+import { path, knownFolders } from "@nativescript/core/file-system";
 
 function getHashCode(value: any): number {
   let hash = 0;
