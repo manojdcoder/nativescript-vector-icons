@@ -1,5 +1,5 @@
 {
-    "name": "nativescript-vector-icons",
+    "name": "@xactremodel/vector-icons",
     "version": "1.0.0",
     "description": "Create image from fonts.",
     "main": "vector-icons",
@@ -50,14 +50,15 @@
     "homepage": "https://github.com/manojdcoder/nativescript-vector-icons",
     "readmeFilename": "README.md",
     "devDependencies": {
-        "tns-core-modules": "^4.0.0",
-        "tns-platform-declarations": "^4.0.0",
-        "typescript": "~2.7.2",
+        "@nativescript/core": "^7.0.0",
+        "@nativescript/types": "^7.0.0",
+        "typescript": "~3.9.0",
         "prompt": "^1.0.0",
         "rimraf": "^2.5.0",
-        "tslint": "^5.0.0",
-        "semver": "^5.5.0"
+        "tslint": "^5.0.0"
     },
-    "dependencies": {},
+    "dependencies": {
+        "ts-node": "^10.0.0"
+    },
     "bootstrapper": "nativescript-plugin-seed"
 }
